@@ -1,0 +1,4 @@
+com\ck\App.class
+com\ck\dao\ISusheDao.class
+com\ck\entity\Sushe.class
+com\ck\util\MybatisUtil.class

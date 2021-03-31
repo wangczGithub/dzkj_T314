@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--suppress ALL-->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table align="center" border="1" width="500" cellspacing="0" cellpadding="5" style="border: 1px solid red;text-align: center">
+        <tr>
+            <td>sushe name</td>
+            <td>sushe address</td>
+            <td>sushe peoples</td>
+        </tr>
+        <tr th:each="s:${susheList}">
+            <td th:text="${s.name}">sushe name</td>
+            <td th:text="${s.address}">sushe address</td>
+            <td th:text="${s.peoples}">sushe peoples</td>
+        </tr>
+    </table>
+</body>
+</html>
